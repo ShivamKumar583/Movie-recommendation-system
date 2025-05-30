@@ -35,7 +35,7 @@ export default function MovieCarousel({ movies }) {
               className="min-w-[60%] sm:min-w-[20%] md:min-w-[20%] lg:min-w-[20%] xl:min-w-[20%] rounded-md overflow-hidden bg-gray-200 shadow"
             >
               <img
-                src={movie.image}
+                src={movie.poster}
                 alt={movie.title}
                 className="w-full h-40 object-cover"
               />
